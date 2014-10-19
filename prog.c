@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-int main
+int kwadrat (int n)
 {
-    int k = 1;
-    print ("pierwszy program w c\n");
+return n*n;
+}
+
+int main()
+{
+    printf ("pierwszy program w c\n");
     return 0;
 }
