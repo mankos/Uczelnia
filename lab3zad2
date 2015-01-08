@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+char a='a';
+float b=1.33;
+double c=3.3512512;
+int d=31412414;
+long e=124124124124;
+printf("%c,%f,%lf,%d,%ld\n",a,b,c,d,e);
+printf("Zmienna char =%c \n",a);
+printf("Zmienna float=%f\n",b);
+printf("Zmienna double=%lf\n",c);
+printf("Zmienna int=%d\n",d);
+printf("Zmienna long=%ld\n",e);
+    return 0;
+}
