@@ -1,0 +1,29 @@
+zadanie 1
+mkdir Test
+mv Test Test2
+rmdir Test2
+mkdir Work
+touch Info.txt
+nano Info.txt
+cp Info.txt
+cat Info.txt
+chmod 764 Info.txt
+ls -la
+tar -cf work.tgz
+tar -xf work.tgz
+wget https://inf.ug.edu.pl/~mdziemia/systemy_operacyjne/lab_linux_1.txt
+ps
+
+zadanie 2
+wget ftp://sunsite.unc.edu/pub/packages/development/graphics/glut/glut-3.3.tar.gz
+cd sources
+tar -xf glut-3.3.tar.gz
+grep include sources
+grep -v int
+
+zadanie 3
+a)find Sources -name '*.c'
+b)find -mtime 7 
+c)find -size 1050
+d)find -mtime +7 
+e)find -size +1000
