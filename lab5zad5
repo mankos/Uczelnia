@@ -1,0 +1,47 @@
+include <include <stdio.h>
+#include <string.h>
+
+struct Pracownik
+{
+	char *nazwisko;
+	float pensja;
+	int rok_urodzenia;
+};
+
+// TO_DO: zaktualizuj funkcje NowyPracownik
+struct Pracownik NowyPracownik(char nazwisko[], float pensja, int rok_urodzenia)
+{
+	
+}
+
+// TO_DO: uzupelnij kod funkcji wypisz, ktory wypisuje dane pracownika
+void Wypisz(struct Pracownik prac)
+{
+	
+}
+
+// TO_DO: uzupelnij kod funkcji UsunPracownik, ktora zwalnia pamiec
+// przydzielona przez funkcje NowyPracownik
+void UsunPracownik(struct Pracownik *prac)
+{
+	
+}
+
+
+int main()
+{
+
+	struct Pracownik szef, informatyk;
+	
+	szef = NowyPracownik("Grzegorz Brzeczyszczykiewicz", 10000, 1970);
+	informatyk = NowyPracownik("Piotr Gut", 800, 1980);
+	
+	
+	Wypisz(szef);
+	Wypisz(informatyk);
+	
+	UsunPracownik(&szef);
+	UsunPracownik(&informatyk);
+	
+	return 0;
+}
