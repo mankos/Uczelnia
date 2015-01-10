@@ -1,0 +1,25 @@
+#include<stdlib.h>
+#include<stdio.h>
+
+int main()
+{
+    struct Kolo
+    {
+        int x;
+        int y;
+        float r;
+    }
+    K1 = {1, 5, 2},
+    K2 = {4, 3, 1};
+
+    printf("Kolo=(x: %d, y: %d, r: %f)\n", K1.x, K1.y, K1.r);
+    printf("Kolo=(x: %d, y: %d, r: %f)\n", K2.x, K2.y, K2.r);
+
+    K1.x=0;
+    K1.y=0;
+    K2.r=10;
+
+    printf("Kolo=(x: %d, y: %d, r: %f)\n", K1.x, K1.y, K1.r);
+    printf("Kolo=(x: %d, y: %d, r: %f)\n", K2.x, K2.y, K2.r);
+    return 0;
+}
