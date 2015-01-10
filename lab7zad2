@@ -1,0 +1,23 @@
+include <stdio.h>
+
+int main()
+{
+	
+	char bufor[255];
+	
+	printf("Podaj napis: ");
+	scanf("%[^\n]s", bufor);
+	
+	
+	char *napis = NULL;
+	
+	// TO_DO: przydzielic odpowiednia ilosc pamieci do wskaznika napis
+	 
+	// TO_DO: skopiowac do napis lancuch znakow z bufora
+	
+	printf("Napis to %s \n", napis);
+	
+	// TO_DO: zwolnic pamiec
+	
+	return 0;
+}
